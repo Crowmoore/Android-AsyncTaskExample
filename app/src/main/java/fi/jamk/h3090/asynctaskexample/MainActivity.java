@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 } catch (InterruptedException e) {
                     Log.e("Error", "Thread interrupted in AsyncTask");
                 }
-            };
+            }
             return null;
         }
 
